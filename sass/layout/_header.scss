@@ -1,0 +1,16 @@
+/*------------------Estilos de Header--------------------------------------*/
+header {
+    
+    background-color: $white;
+
+    /*------------------------Estilo en Logo ----------------------------*/
+    .header-content {
+    @include flex-center;
+    }
+
+    .logo {
+    width: $logo-width;
+    height: $logo-height;
+    
+    }
+}

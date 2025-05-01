@@ -1,0 +1,49 @@
+/*---------------------------Catalogos de vehiculos---------------------*/
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    @include respond-to(mobile) {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax($box-width, 1fr));
+    gap: 10px;
+    margin-top: 20px;
+
+    @include respond-to(mobile) {
+        grid-template-columns: 1fr;
+    }
+
+    @include respond-to(tablet) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to(desktop) {
+        grid-template-columns: repeat(auto-fill, minmax($box-width, 1fr));
+    }
+}
+
+.text-catalog {
+    font-size: x-large;
+    margin-top: 25px;
+
+    @include respond-to(mobile) {
+        font-size: large;
+        text-align: center;
+    }
+
+    @include respond-to(tablet) {
+        font-size: x-large;
+    }
+
+    @include respond-to(desktop) {
+        font-size: xx-large;
+    }
+}
+

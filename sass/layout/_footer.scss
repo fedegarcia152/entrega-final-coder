@@ -1,0 +1,11 @@
+/*---------------------------estilos footers--------------------------------------*/
+.container-footer {
+    @include flex-center;
+    margin-bottom: 35px;
+
+.img-footer {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+    }
+}

@@ -1,0 +1,12 @@
+.main-father {
+    background-color: $beige;
+}
+
+.flex-container {
+    margin-left: $margin-side;
+    margin-right: $margin-side;
+    margin-top: -76px;
+    text-align: center;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+}  

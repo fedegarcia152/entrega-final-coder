@@ -1,0 +1,20 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    width: $filters-width-items;
+    
+
+}
+
+.filters-items {
+margin-top: 5px;
+width: $filters-width-items;
+
+}
+
+.filters-cars {
+width: $filters-width;
+height: $filters-height;
+margin-top: 45px;
+display: flex;
+}

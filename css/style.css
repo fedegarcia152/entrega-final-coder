@@ -1,0 +1,183 @@
+/*-------------------Reset CSS---------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------Estilos de Header--------------------------------------*/
+header {
+  background-color: white;
+  /*------------------------Estilo en Logo ----------------------------*/
+}
+header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .logo {
+  width: 400px;
+  height: 300px;
+}
+
+.main-father {
+  background-color: beige;
+}
+
+.flex-container {
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: -76px;
+  text-align: center;
+  font-size: var(--bs-nav-link-font-size);
+  font-weight: var(--bs-nav-link-font-weight);
+}
+
+/*---------------------------estilos footers--------------------------------------*/
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.container-footer .img-footer {
+  width: 100px;
+  height: 100px;
+  margin: 0 15px;
+}
+
+/*---------------------------Catalogos de vehiculos---------------------*/
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .catalog {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .catalog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1025px) {
+  .catalog {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+.text-catalog {
+  font-size: x-large;
+  margin-top: 25px;
+}
+@media (max-width: 768px) {
+  .text-catalog {
+    font-size: large;
+    text-align: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .text-catalog {
+    font-size: x-large;
+  }
+}
+@media (min-width: 1025px) {
+  .text-catalog {
+    font-size: xx-large;
+  }
+}
+
+/* ----------------------------------------Contiene imagenes de Vehiculos----------------------------------------*/
+.box {
+  text-align: center;
+  background-color: #d1cece;
+  height: 300px;
+  width: 350px;
+  border: 2px solid black;
+  border-radius: 2%;
+  margin: 50px;
+  padding: 15px;
+}
+
+.ingreso {
+  position: relative;
+}
+.ingreso .position {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: chartreuse;
+  color: brown;
+  font-size: small;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.input-sherch {
+  width: 195px;
+  height: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+}
+
+.filters-items {
+  margin-top: 5px;
+  width: 145px;
+}
+
+.filters-cars {
+  width: 180px;
+  height: 25px;
+  margin-top: 45px;
+  display: flex;
+}
+
+/* --------------- Pages Nosotros -------------------*/
+.flex-container-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 15px;
+  padding: 1ch;
+  background-color: antiquewhite;
+  align-content: center;
+}
+
+.text-us {
+  border-bottom: ridge;
+  margin: 40px;
+  background: aliceblue;
+  font-style: italic;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100PX;
+  margin-right: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */

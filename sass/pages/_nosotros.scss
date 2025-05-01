@@ -1,0 +1,25 @@
+/* --------------- Pages Nosotros -------------------*/
+.flex-container-us {
+    @include grid-3-cols;
+    row-gap: 15px;
+    padding: 1ch;
+    background-color:antiquewhite;
+    align-content: center;
+}
+
+.text-us {
+    border-bottom: ridge;
+    margin: 40px;
+    background: $color-text-us-bg;
+    font-style: italic;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100PX;
+    margin-right: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
